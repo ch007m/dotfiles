@@ -36,5 +36,5 @@ if [[ ! -z $unmerged_files ]]; then
    printf %"s\n" $unmerged_files  # Ensure newlines are printed
 else
    # Run stow to ensure all new dotfiles are linked
-   stow . -v 2
+   stow --ignore=.DS_Store . -v 2
 fi
