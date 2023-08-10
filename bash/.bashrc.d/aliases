@@ -1,0 +1,19 @@
+# kubectl shortcut -> kc
+alias kc='kubectl'
+# kubectl shortcut -> k
+alias k='kubectl'
+
+# kubectl krew
+alias krew='kubectl krew'
+
+# kubectl tree
+alias ktree='kubectl tree'
+
+# kubectl ns
+alias kns='kubectl ns'
+
+# kubectl ctx
+alias kctx='kubectl ctx'
+
+# kubectl konfig
+alias konfig='kubectl konfig'
