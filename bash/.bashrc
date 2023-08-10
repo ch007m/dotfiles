@@ -6,8 +6,6 @@ export LANG="en_US.UTF-8"
 #export PS1="\h:\w$ "
 export TERM=xterm-256color
 
-# This is a test to check if script git push content
-
 # Source kubectl aliases
 source ~/.bashrc.d/aliases
 
