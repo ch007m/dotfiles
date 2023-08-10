@@ -14,7 +14,7 @@ cd ..
 echo -e "${BLUE}Stashing existing changes...${NC}"
 stash_result=$(git stash push -m "sync-dotfiles: Before syncing dotfiles")
 needs_pop=1
-if [ "$stash_result" = "No local changes to save" ]; then
+if [ "$stash_result" = "Saved working directory and index state On main: sync-dotfiles: Before syncing dotfiles" ]; then
     needs_pop=0
 fi
 
