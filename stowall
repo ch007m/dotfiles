@@ -1,2 +1,2 @@
 # List of stowed projects
-stow zsh
+stow zsh -v
