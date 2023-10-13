@@ -17,3 +17,6 @@ alias kctx='kubectl ctx'
 
 # kubectl konfig
 alias konfig='kubectl konfig'
+
+# argocd password
+alias argo_pwd='kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d'
